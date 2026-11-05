@@ -20,3 +20,5 @@ Owner decisions override the designer's spec.
 | 14 | Header wraps below ~500px now that Projects joins the nav | Designer call | Wordmark on line 1, nav on line 2 on small screens (Credentials still hidden below `sm`); single row from `sm` up |
 | 15 | Publish on GitHub Pages as a user site, `MohamedElsiddig.github.io` repo | Confirmed | Workflow builds `dist/` in CI and deploys the artifact; `dist/` stays out of git |
 | 16 | Custom domain `mohamedelsiddig.com` for the resume | Confirmed | The Hashnode blog moves to `blog.mohamedelsiddig.com`; apex and `www` point at GitHub Pages |
+| 17 | Email removed from the public page | Confirmed | Owner request 2026-11-05; LinkedIn is the only direct contact route |
+| 18 | CKA listed as a Udemy course, not a certification | Confirmed | Owner correction 2026-11-05; the label now reads "Udemy course" |

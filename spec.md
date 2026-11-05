@@ -39,7 +39,8 @@ photography. The portrait is a labelled placeholder until a real photo is suppli
   only the URLs the owner supplied are linked — rnf.sa, github.com/MohamedElsiddig/Terraform,
   github.com/MohamedElsiddig/grubfix. Dates appear only where the source gives them.
 - No invented metrics or outcomes; bullets are condensed from the resume text.
-- Phone number is intentionally left off the public page; email, LinkedIn and blog are shown.
+- Phone number and email are intentionally left off the public page; LinkedIn and the blog are the
+  contact routes.
 - Portrait stays a labelled placeholder until a real photo is provided.
 
 ## Design tokens
