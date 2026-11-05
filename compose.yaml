@@ -1,0 +1,8 @@
+services:
+  resume-site:
+    build: .
+    image: resume-site:dev
+    container_name: resume-site
+    ports:
+      - "8811:80"
+    restart: unless-stopped

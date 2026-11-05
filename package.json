@@ -1,0 +1,20 @@
+{
+  "name": "resume-site",
+  "version": "1.0.0",
+  "description": "Resume and portfolio site for Mohamed M. Ahmed",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i src/input.css -o dist/styles.css --minify",
+    "build": "npm run build:css && cp src/index.html dist/index.html && cp -r src/fonts dist/fonts && cp src/Mohamed-Ahmed-CV.pdf dist/Mohamed-Ahmed-CV.pdf",
+    "serve": "python3 -m http.server 8811 -d dist"
+  },
+  "keywords": [],
+  "author": "Mohamed M. Ahmed",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.4",
+    "playwright": "^1.64.1",
+    "tailwindcss": "^4.3.4"
+  }
+}
