@@ -74,9 +74,12 @@ self-hosted as woff2, latin subset.
 ## Build and packaging
 
 - Source: `src/index.html` + `src/input.css` with Tailwind CSS v4.
-- Static output: `dist/` (HTML, compiled CSS, fonts, CV PDF).
-- Docker: multi-stage build (Node + Tailwind CLI, then nginx serving `dist/`).
-- Publish target: local image only (`resume-site:dev`), run on port 8811 via compose.
+- Static output: `dist/` (HTML, compiled CSS, fonts, CV PDF, `CNAME`).
+- Docker: multi-stage build (Node + Tailwind CLI, then nginx serving `dist/`) — local preview on port 8811.
+- Publish target: GitHub Pages, repo `MohamedElsiddig.github.io`, built and deployed by
+  `.github/workflows/pages.yml` on every push to `main`. `dist/` is git-ignored.
+- Production domain: `https://mohamedelsiddig.com/` (apex on GitHub Pages, `www` redirects to it).
+  The Hashnode blog that used the apex lives at `https://blog.mohamedelsiddig.com/`.
 
 ## Open questions
 
