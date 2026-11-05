@@ -35,7 +35,6 @@ jobs:
       - name: Build site
         run: npm run build
 
-      # Custom domain later: add a step here that writes the domain into dist/CNAME before upload.
       - name: Disable Jekyll processing
         run: touch dist/.nojekyll
 

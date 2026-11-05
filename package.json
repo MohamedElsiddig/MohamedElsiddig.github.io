@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build:css": "tailwindcss -i src/input.css -o dist/styles.css --minify",
-    "build": "npm run build:css && cp src/index.html dist/index.html && cp -r src/fonts dist/fonts && cp src/Mohamed-Ahmed-CV.pdf dist/Mohamed-Ahmed-CV.pdf",
+    "build": "npm run build:css && cp src/index.html dist/index.html && cp -r src/fonts dist/fonts && cp src/Mohamed-Ahmed-CV.pdf dist/Mohamed-Ahmed-CV.pdf && cp src/CNAME dist/CNAME",
     "serve": "python3 -m http.server 8811 -d dist"
   },
   "keywords": [],
