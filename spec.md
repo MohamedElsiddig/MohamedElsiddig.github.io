@@ -26,8 +26,9 @@ photography. The portrait is a labelled placeholder until a real photo is suppli
 5. Projects — six builds in a two-column hairline grid (Reef Website, Berber Cement migration,
    Terraform AWS demo, EasyFollow/Wasla, Grubfix, Neos), each with kind/date, description, stack
    line and a link where one is public.
-6. Experience — six roles (including the 2017 SPPC stint) with company, dates, location and one
-   line per duty from the CV; duplicates merged, nothing invented.
+6. Experience — five roles (including the 2017 SPPC stint) with company, dates, location and one
+   line per duty from the CV; duplicates merged, nothing invented. ZainBlue Cloud is a project
+   nested inside the Syber Group entry, with its own timeline and duties.
 7. Skills — cloud platforms, automation and delivery, systems and security.
 8. Credentials — certifications and education.
 9. Contact — email, LinkedIn, blog, availability.

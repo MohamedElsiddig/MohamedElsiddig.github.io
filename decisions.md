@@ -22,7 +22,8 @@ Owner decisions override the designer's spec.
 | 16 | Custom domain `mohamedelsiddig.com` for the resume | Confirmed | The Hashnode blog moves to `blog.mohamedelsiddig.com`; apex and `www` point at GitHub Pages |
 | 17 | Email removed from the public page | Confirmed | Owner request 2026-11-05; LinkedIn is the only direct contact route |
 | 18 | CKA listed as a Udemy course, not a certification | Confirmed | Owner correction 2026-11-05; the label now reads "Udemy course" |
-| 19 | Experience keeps every duty from the CV export | Confirmed | Owner request 2026-11-06; 29 bullets across 6 roles, incl. the Aug–Sep 2017 SPPC stint |
-| 20 | Experience counted as the sum of dated stints, not the calendar span | Confirmed | Owner's rule 2026-11-06; inclusive months = 91 (7 y 7 m) at Nov 2026 |
+| 19 | Experience keeps every duty from the CV export | Confirmed | Owner request 2026-11-06; 29 bullets across 5 roles plus the ZainBlue project |
+| 20 | Experience counted as the sum of dated stints, not the calendar span | Confirmed | Owner's rule 2026-11-06; inclusive months = 90 (7 y 6 m) at Nov 2026 |
 | 21 | Two traineeships and the national-service year are labelled | Confirmed | Company line carries ` · Trainee` / ` · National Service`; CV titles unchanged |
 | 22 | Hero figure derived at build time | Confirmed | `scripts/experience-years.mjs` + monthly scheduled Pages run; no client JS |
+| 23 | ZainBlue Cloud is a project inside Syber Group, not an employer | Confirmed | Owner correction 2026-11-06; Syber now reads Dec 2020 — Sep 2024 with the project (Dec 2020 — Mar 2021) nested underneath |
