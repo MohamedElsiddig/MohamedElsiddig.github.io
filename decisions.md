@@ -23,3 +23,6 @@ Owner decisions override the designer's spec.
 | 17 | Email removed from the public page | Confirmed | Owner request 2026-11-05; LinkedIn is the only direct contact route |
 | 18 | CKA listed as a Udemy course, not a certification | Confirmed | Owner correction 2026-11-05; the label now reads "Udemy course" |
 | 19 | Experience keeps every duty from the CV export | Confirmed | Owner request 2026-11-06; 29 bullets across 6 roles, incl. the Aug–Sep 2017 SPPC stint |
+| 20 | Experience counted as the sum of dated stints, not the calendar span | Confirmed | Owner's rule 2026-11-06; inclusive months = 91 (7 y 7 m) at Nov 2026 |
+| 21 | Two traineeships and the national-service year are labelled | Confirmed | Company line carries ` · Trainee` / ` · National Service`; CV titles unchanged |
+| 22 | Hero figure derived at build time | Confirmed | `scripts/experience-years.mjs` + monthly scheduled Pages run; no client JS |

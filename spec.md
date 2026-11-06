@@ -39,6 +39,11 @@ photography. The portrait is a labelled placeholder until a real photo is suppli
 - Experience keeps the day-to-day duties from that export: one line per duty, duplicates merged.
   Condensing was reverted on the owner's request (2026-11-06) — do not trim them back to 2–3
   bullets per role without asking.
+- Short stints carry their context on the company line (` · Trainee`, ` · National Service`);
+  the job titles stay as the CV has them.
+- The hero's experience figure is **computed at build time** from the dates in the Experience
+  section (`scripts/experience-years.mjs`, inclusive months, rounded down to whole years). Never
+  hard-code it; a monthly Pages run refreshes it.
 - Projects section sourced from the owner's LinkedIn project cards (screenshots, 2026-11-05);
   only the URLs the owner supplied are linked — rnf.sa, github.com/MohamedElsiddig/Terraform,
   github.com/MohamedElsiddig/grubfix. Dates appear only where the source gives them.
