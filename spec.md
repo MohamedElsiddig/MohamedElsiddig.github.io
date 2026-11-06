@@ -26,7 +26,8 @@ photography. The portrait is a labelled placeholder until a real photo is suppli
 5. Projects — six builds in a two-column hairline grid (Reef Website, Berber Cement migration,
    Terraform AWS demo, EasyFollow/Wasla, Grubfix, Neos), each with kind/date, description, stack
    line and a link where one is public.
-6. Experience — five roles with company, dates, location and short bullets.
+6. Experience — six roles (including the 2017 SPPC stint) with company, dates, location and one
+   line per duty from the CV; duplicates merged, nothing invented.
 7. Skills — cloud platforms, automation and delivery, systems and security.
 8. Credentials — certifications and education.
 9. Contact — email, LinkedIn, blog, availability.
@@ -35,6 +36,9 @@ photography. The portrait is a labelled placeholder until a real photo is suppli
 ## Content rules
 
 - Sourced from `~/Downloads/Documents/Profile.pdf` (LinkedIn export, November 2026).
+- Experience keeps the day-to-day duties from that export: one line per duty, duplicates merged.
+  Condensing was reverted on the owner's request (2026-11-06) — do not trim them back to 2–3
+  bullets per role without asking.
 - Projects section sourced from the owner's LinkedIn project cards (screenshots, 2026-11-05);
   only the URLs the owner supplied are linked — rnf.sa, github.com/MohamedElsiddig/Terraform,
   github.com/MohamedElsiddig/grubfix. Dates appear only where the source gives them.
