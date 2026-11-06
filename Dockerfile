@@ -3,6 +3,7 @@ WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm ci --ignore-scripts
 COPY src ./src
+COPY scripts ./scripts
 RUN mkdir -p dist && npm run build
 
 FROM nginx:1.29-alpine
